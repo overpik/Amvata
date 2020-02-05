@@ -10,7 +10,7 @@ Headers :
 ```json
 {
     "Content-Type": "application/json",
-    "token":"xxxxxxxxxxxxxxxxx"
+    "token": `$token`
 }
 ```
 
