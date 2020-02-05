@@ -53,6 +53,6 @@ Response Description :
 
 | Name  | Type | Description |
 |---|---|---|
-| status  | boolean | API status success = true, error = false) |
+| status  | boolean | API status success = true, error = false |
 | message  | string |  show message status |
 | user_id  | string(8-16) | response when status = true|
