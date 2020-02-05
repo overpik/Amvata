@@ -4,7 +4,7 @@
 ## API : API User Register
 Method : POST
 
-Link : "https://amvata.com/api-user-register/"
+Link : "https://amvata.com/api-user-register-th"
 
 Headers : 
 ```json
