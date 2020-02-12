@@ -24,7 +24,7 @@ Request Parameter :
     "lastname": "lastname",
     "receive_news": "Y",
     "coupon": "Y",
-
+    "from": "ABK",
 }
 ```
 
@@ -39,12 +39,13 @@ Request Description :
 | lastname  | string(2-50)  | true | นามสกุล |
 | receive_news | char(1)  | true | Y = รับข่าวสารและโปรโมชั่น, N = ไม่รับข่าวสารและโปรโมชั่น |
 | coupon | char(1)  | true | Y = แจกคูปอง, N = ไม่แจกคูปอง |
+| from | string(50)  | true | ลงทะเบียนจากงาน APK, BS |
 
 Response Parameter :
 ```json
 {
     "status": true,
-    "message": "",
+    "message": "success",
     "user_id": "xxxxx"
 }
 ```
