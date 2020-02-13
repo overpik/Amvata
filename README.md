@@ -33,13 +33,13 @@ Request Description :
 | Name  | Type | Required | Description |
 |---|---|---|---|
 | phone  | number(10)  | true | เบอร์โทรศัพท์ |
-| email  | string(50)  | true | อีเมล ต้องอยู่ในรูปแบบที่ถูกต้อง ตัวอย่าง. xxxxx@gmail.com |
+| email  | string(50)  | false | อีเมล ต้องอยู่ในรูปแบบที่ถูกต้อง ตัวอย่าง. xxxxx@gmail.com |
 | password  | string(8-16)  | true | รหัสผ่าน ต้องใส่ทั้งตัวเลขและตัวอักษร อย่างน้อย 8 ตัว|
 | firstname  | string(2-50)  | true | ชื่อ |
 | lastname  | string(2-50)  | true | นามสกุล |
 | receive_news | char(1)  | true | Y = รับข่าวสารและโปรโมชั่น, N = ไม่รับข่าวสารและโปรโมชั่น |
 | coupon | char(1)  | true | Y = แจกคูปอง, N = ไม่แจกคูปอง |
-| from | string(50)  | true | APK = ลงทะเบียนจากงาน APK, BS = ลงทะเบียนจากงาน BS |
+| from | string(50)  | true | APK = ลงทะเบียนจากงาน APK, FBS2020/01 = ลงทะเบียนจากงาน BS |
 
 Response Parameter :
 ```json
