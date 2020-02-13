@@ -14,7 +14,7 @@ Headers :
 }
 ```
 
-Request Parameter :
+Request Body Parameter :
 ```json
 {
     "phone": "095xxxxxxx",
@@ -39,7 +39,7 @@ Request Description :
 | lastname  | string(2-50)  | true | นามสกุล |
 | receive_news | char(1)  | true | Y = รับข่าวสารและโปรโมชั่น, N = ไม่รับข่าวสารและโปรโมชั่น |
 | coupon | char(1)  | true | Y = แจกคูปอง, N = ไม่แจกคูปอง |
-| from | string(50)  | true | ลงทะเบียนจากงาน APK, BS |
+| from | string(50)  | true | APK = ลงทะเบียนจากงาน APK, BS =ลงทะเบียนจากงาน BS |
 
 Response Parameter :
 ```json
