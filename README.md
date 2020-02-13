@@ -24,7 +24,7 @@ Request Parameter :
     "lastname": "lastname",
     "receive_news": "Y",
     "coupon": "Y",
-    "from": "ABK",
+    "from": "ABK"
 }
 ```
 
