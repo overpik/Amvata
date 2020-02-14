@@ -24,7 +24,7 @@ Request Body Parameter :
     "lastname": "lastname",
     "receive_news": "Y",
     "coupon": "Y",
-    "from": "ABK"
+    "from": "FBK16/2563"
 }
 ```
 
