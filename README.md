@@ -39,7 +39,7 @@ Request Description :
 | lastname  | string(2-50)  | true | นามสกุล |
 | receive_news | char(1)  | true | Y = รับข่าวสารและโปรโมชั่น, N = ไม่รับข่าวสารและโปรโมชั่น |
 | coupon | char(1)  | true | Y = แจกคูปอง, N = ไม่แจกคูปอง |
-| from | string(50)  | true | APK = ลงทะเบียนจากงาน APK, FBS2020/01 = ลงทะเบียนจากงาน BS |
+| from | string(50)  | true | FBK16/2563 = ลงทะเบียนจากงาน APK, FBS2020/01 = ลงทะเบียนจากงาน BS |
 
 Response Parameter :
 ```json
